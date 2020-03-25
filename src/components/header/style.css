@@ -1,0 +1,21 @@
+
+.myheader{
+    color: var(--main-color);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    margin-bottom: 8px;
+}
+
+.myheader.left{
+    text-align: left;
+}
+
+.myheader.orange{
+    color: var(--main-orange-color) !important;
+}

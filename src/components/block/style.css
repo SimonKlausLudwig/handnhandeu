@@ -1,0 +1,11 @@
+.myblock{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-row-gap: 11px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px rgba(151, 151, 151, 0.1);
+    padding: 15px;
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}

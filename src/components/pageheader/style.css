@@ -1,0 +1,12 @@
+
+.pagehader{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.pagehader img{
+    height: 35px;
+    width: 35px
+}

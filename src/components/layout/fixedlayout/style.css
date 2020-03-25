@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: Roboto;
+    padding: 0px;
+    margin: 0;
+}
+
+.fixedLayout {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    max-height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.fixedLayout .fixedContent {
+    max-height: 100%;
+    overflow: scroll;
+    padding: 30px;
+}
+
+.fixedLayout .fixedBottom {
+    padding: 30px 15px 15px 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.messagepage .fixedContent {
+    grid-template-rows: auto auto auto 1fr;
+    display: grid;
+    grid-gap: 15px;
+}
+
+.indexPage .pagehader img {
+    display: none;
+}
+
+.indexPage .fixedContent img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.onboardingpage .fixedContent{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.resultspage .fixedContent{
+    background-image: linear-gradient(to top, rgba(238, 238, 238, 0.02), rgba(216, 216, 216, 0.27));
+}
+
+.resultspage .fixedBottom .mytext{
+    margin-bottom: 15px;
+}
+
+.offerpage .fixedContent{
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-rows: auto auto 1fr auto auto auto;
+}
+
+.faqpage .fixedContent{
+    display: grid;
+    grid-row-gap: 15px;
+}
+
+
+form{
+    display: contents;
+}
+
+
+.successpage .fixedContent{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: initial;
+    justify-items: center;
+}
+
+.plzpage .myinput{
+    margin-top: 15px;
+}

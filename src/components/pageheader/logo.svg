@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="30" viewBox="0 0 42 30">
+    <g fill="none" fill-rule="evenodd" transform="rotate(-90 15.5 14)">
+        <rect width="3.744" height="9.518" x="7.522" y="5.917" fill="#FBCAB5" fill-rule="nonzero" rx="1.771" transform="rotate(-45 9.394 10.677)"/>
+        <rect width="3.744" height="13.284" x="6.729" y="8.653" fill="#FBCAB5" fill-rule="nonzero" rx="1.771" transform="rotate(-45 8.601 15.295)"/>
+        <rect width="3.744" height="7.646" x="2.169" y="17.921" fill="#FBCAB5" fill-rule="nonzero" rx="1.771" transform="rotate(-45 4.04 21.745)"/>
+        <path fill="#FBCAB5" fill-rule="nonzero" d="M14.798 39.742h7.078v-5.948l5.306-5.443v-7.106l-6.739-7.121s-2.736-.44-2.714 0c.021.44-1.771 2.218-.389 3.6 1.382 1.382 3.924 4.406 3.924 4.406l.108 3.752-6.854 9.453H7.72v4.407h7.077z"/>
+        <path fill="#E39F81" fill-rule="nonzero" d="M7.08 35.378H12.84V39.698H7.08z"/>
+        <rect width="3.744" height="9.518" x="7.522" y="5.917" stroke="#001C63" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.44" rx="1.771" transform="rotate(-45 9.394 10.677)"/>
+        <rect width="3.744" height="7.646" x="2.169" y="17.921" stroke="#001C63" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.44" rx="1.771" transform="rotate(-45 4.04 21.745)"/>
+        <path stroke="#001C63" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.44" d="M9.708 27.595H2.263c-.975 0-1.767-.788-1.771-1.764v-.209c.004-.975.796-1.764 1.771-1.764H3.53M8.383 31.332h-4.32c-.975 0-1.767-.789-1.771-1.764v-.209c.004-.975.796-1.764 1.771-1.764H7.75"/>
+        <path stroke="#001C63" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.44" d="M11.148 31.332H6.454c-.976 0-1.768.789-1.772 1.764v.209c.02.964.807 1.735 1.772 1.735h8.064l4.197-4.997"/>
+        <rect width="3.744" height="13.284" x="6.729" y="8.653" stroke="#001C63" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.44" rx="1.771" transform="rotate(-45 8.601 15.295)"/>
+        <rect width="3.744" height="13.284" x="5.473" y="12.79" fill="#FBCAB5" fill-rule="nonzero" rx="1.771" transform="rotate(-45 7.345 19.432)"/>
+        <rect width="3.744" height="13.284" x="5.473" y="12.79" stroke="#001C63" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.44" rx="1.771" transform="rotate(-45 7.345 19.432)"/>
+        <path stroke="#001C63" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.44" d="M21.876 39.742v-5.285l4.99-5.27c.774-.817 1.207-1.9 1.21-3.025v-3.427c.006-.678-.252-1.331-.72-1.821L21.12 14.57c-.442-.445-1.043-.695-1.67-.695-.628 0-1.229.25-1.67.695h0c-.44.438-.687 1.033-.687 1.653 0 .62.247 1.214.686 1.652l3.47 3.485c.415.504.666 1.121.72 1.771.117.855.043 1.726-.215 2.549M21.876.098v6.639c.01 1.27.677 2.445 1.764 3.103h0c1.099.661 1.77 1.85 1.771 3.132v5.645M8.606.098L8.606 7.147M11.292 31.332L16.764 25.37M7.721 39.742L7.721 35.335"/>
+    </g>
+</svg>

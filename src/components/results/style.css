@@ -1,0 +1,5 @@
+.myresults{
+    display: grid;
+    grid-row-gap: 15px;
+    margin-top: 20px;
+}

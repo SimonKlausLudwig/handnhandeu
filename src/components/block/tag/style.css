@@ -1,0 +1,15 @@
+.mytag{
+    background-color: var(--main-color);
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    justify-self: flex-start;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
