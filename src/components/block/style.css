@@ -9,3 +9,8 @@
     color: inherit;
     cursor: auto;
 }
+
+.myblock .mytext{
+    max-height: 200px;
+    overflow: scroll;
+}
