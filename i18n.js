@@ -14,7 +14,6 @@ export const e18n = {
     message_email: "Deine E-Mail",
     message_content: "Deine Nachricht",
     message_mailcontent: "hat ihnen eine Nachricht geschickt. Bitte antworten Sie nicht auf diese E-mail sondern Kontaktieren die Person direkt. Die Nachricht lautet",
-
     index_header: "Wie es funktioniert?",
     index_description: "Suche nach aktuellen Angeboten/Gesuchen oder erstelle deinen eigenen Beitrag in Sekunden, um Unterstützung anzubieten oder zu finden.",
     impressum_button: "Zurück",

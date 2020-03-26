@@ -1,0 +1,17 @@
+.myselect{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    padding: 17px;
+    color: #8b959a;
+    border: none;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fdfdfd;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}

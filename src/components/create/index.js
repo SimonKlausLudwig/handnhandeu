@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import Footer from "../footer";
 import {useForm} from "react-hook-form";
@@ -11,11 +11,12 @@ import TextArea from "../textarea";
 import Button from "../button";
 import {e18n} from "../../../i18n";
 import {sendMessage} from "../message";
+import Select from "../select";
 
 const CreateForm = ({title, orange, id, description, buttonText}) => {
 
     const {register, setvalueee, handleSubmit, errors} = useForm();
-
+    const [lokal, setLokal] = useState(true);
     return (
         <form onSubmit={handleSubmit((formData) => sweetForm((data) => {
                 return fetch(`https://api.myjson.com/bins/${id}`).then(d => d.json()).then(s => {
@@ -35,8 +36,10 @@ const CreateForm = ({title, orange, id, description, buttonText}) => {
                           placeholder={e18n.form_description}/>
                 <Input ref={register} required={true} valueee="simon-ludwig@live.de" name={"email"} minLenght={15}
                        type={"email"} placeholder={e18n.form_email}/>
+                <Select value={lokal} onChange={val => setLokal(val === 1)}/>
+                {lokal &&
                 <Input ref={register} required={true} valueee="81273123" name={"tag"} type={"number"} minLength={5}
-                       placeholder={e18n.form_plz}/>
+                       placeholder={e18n.form_plz}/>}
             </FixedLayout>
         </form>)
 }
