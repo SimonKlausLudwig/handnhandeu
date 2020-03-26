@@ -22,8 +22,7 @@ const CreateForm = ({title, orange,uri, id, description, buttonText}) => {
                 return fetch(`https://api.myjson.com/bins/${id}`).then(d => d.json()).then(s => {
                     return sendMessage(s.concat([formData]), id);
                 });
-            }
-        ).then(() => window.location = `/${uri}/success`))}>
+            },"","",true).then(() => window.location = `/success/${uri}`))}>
             <FixedLayout className={"messagepage"} orange={orange} bottom={<div>
                 <Button type={"submit"}>{buttonText}</Button>
                 <Text>Mit Absenden stimmen Sie zu, dass Sie Personen per E-Mail kontaktieren dürfen</Text>

@@ -15,9 +15,10 @@ const ResultsWrapper = ({id, notFound, resultsFound, resultsDescription, createB
                 var plz = parseInt(new URL(window.location.href).searchParams.get("plz"));
 
                 restResults = restResults.map(i => ({...i, dif: Math.abs(i.tag - plz)}));
-
                 setResults(restResults.sort(function (a, b) {
-                    return a.dif - b.dif;
+                    var res = (!plz) ? (a.tag ? 0 : -1) : (a.dif - b.dif);
+                    console.log(res);
+                    return res;
                 }));
 
 

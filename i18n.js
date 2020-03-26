@@ -66,6 +66,4 @@ export const e18n = {
     success_offer_description: "Sobald jemand deine Hilfe benötigt, erhältst du eine Mail. Bis dahin kannst du anderen helfen indem du von #handinhand erzählst!",
     share_header: "#HandNHand - Supporte uns",
     share_text: "Sobald jemand deine Hilfe benötigt, erhältst du eine Mail. Bis dahin kannst du anderen helfen indem du von #handnhand erzählst!",
-
-
 };

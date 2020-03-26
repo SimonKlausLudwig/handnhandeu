@@ -2,9 +2,12 @@ import React from 'react'
 import Swal from 'sweetalert2'
 import {e18n} from "../../../i18n";
 
-export default function sweetForm(promise, title, description) {
+export default function sweetForm(promise, title, description, autoClose) {
     Swal.showLoading()
     return promise().then((d) => {
+            if (autoClose) {
+                return new Promise(r => r());
+            }
             return new Promise(r => {
                 Swal.fire({
                     title: title, text: description, icon: 'success', onClose(popup) {

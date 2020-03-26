@@ -29,7 +29,7 @@ body {
     grid-gap: 15px;
 }
 
-.messagepage .fixedBottom .mybutton{
+.messagepage .fixedBottom .mybutton {
     margin-bottom: 10px;
 }
 
@@ -42,42 +42,49 @@ body {
     margin-bottom: 40px;
 }
 
-.onboardingpage .mytext{
+.onboardingpage .mytext {
     padding: 15px 20px;
-    text-align: justify;
 }
 
-.onboardingpage .fixedContent{
+.onboardingpage .fixedContent {
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
 
-.resultspage .fixedContent{
+.resultspage .fixedContent {
     background-image: linear-gradient(to top, rgba(238, 238, 238, 0.02), rgba(216, 216, 216, 0.27));
 }
 
-.resultspage .fixedBottom .mytext{
+.onboardingpage .mytext {
+    padding-top: 0px;
+}
+
+.onboardingpage .fixedContent div:nth-of-type(2){
+    align-self: flex-end;
+}
+
+.resultspage .fixedBottom .mytext {
     margin-bottom: 15px;
 }
 
-.offerpage .fixedContent{
+.offerpage .fixedContent {
     display: grid;
     grid-row-gap: 10px;
     grid-template-rows: auto auto 1fr auto auto auto;
 }
 
-.faqpage .fixedContent{
+.faqpage .fixedContent {
     display: grid;
     grid-row-gap: 15px;
 }
 
 
-form{
+form {
     display: contents;
 }
 
 
-.successpage .fixedContent{
+.successpage .fixedContent {
     text-align: center;
     display: grid;
     justify-content: center;
@@ -86,6 +93,6 @@ form{
     justify-items: center;
 }
 
-.plzpage .myinput{
+.plzpage .myinput {
     margin-top: 15px;
 }
