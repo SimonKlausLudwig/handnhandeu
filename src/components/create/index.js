@@ -33,7 +33,6 @@ const CreateForm = ({title, orange, id, description, buttonText}) => {
                        type={"email"} placeholder={"E-Mail-Adresse"}/>
                 <Input ref={register} required={true} valueee="81273123" name={"tag"} type={"number"} minLength={5}
                        placeholder={"PLZ"}/>
-                <Input ref={register} placeholder={"Lokal"}/>
             </FixedLayout>
         </form>)
 }

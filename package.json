@@ -21,6 +21,7 @@
     "gatsby-transformer-remark": "^2.6.52",
     "netlify-cms-app": "^2.11.20",
     "react": "^16.12.0",
+    "react-div-100vh": "^0.3.8",
     "react-dom": "^16.12.0",
     "react-hook-form": "^5.1.3",
     "sweetalert2": "^9.10.6"
