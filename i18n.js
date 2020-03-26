@@ -2,10 +2,10 @@ export const e18n = {
     message: "message",
 
     onboard_owner: "Ladenbesitzer",
-    onboard_owner_description: "Du hast einen kleinen Betrieb und brauchst Unterstützung? Du brauchst einen Online-Shop oder eine Möglichkeit deine Speisen als Lieferdienst anzubieten?  Wir helfen dir!",
-    onboard_owner_button: "Ich benötige Hilfe",
+    onboard_owner_description: "Du hast einen Betrieb und brauchst Unterstützung? Du brauchst einen Online-Shop oder eine Möglichkeit deine Speisen als Lieferdienst anzubieten?  Wir helfen dir!",
+    onboard_owner_button: "Ich brauche Hilfe",
     onboard_helper: "Unterstützer",
-    onboard_helper_description: "Du möchtest deinen Lieblingsorten unter die Arme greifen? Sieh' dir aktuelle Gesuche in deiner Umgebung an oder erstelle dein eigenes Angebot - hier entlang!",
+    onboard_helper_description: "Du möchtest deinen Lieblingsorten unter die Arme greifen? Sieh' dir aktuelle Gesuche in deiner Umgebung an - hier entlang!",
     onboard_helper_button: "Ich möchte helfen",
 
 
@@ -36,6 +36,9 @@ export const e18n = {
     create_offer_description: "Erstelle schnell und einfach dein eigenes Gesuch",
     create_search_title: "Angebot erstellen",
     create_search_button: "Angebot erstellen",
+
+
+
     create_search_description: "Erstelle schnell und einfach dein eigenes Angebot",
     enter_plz: "PLZ eingeben",
     searching: "Suchen",
@@ -44,15 +47,25 @@ export const e18n = {
     form_email: "E-Mail",
     form_plz: "PLZ",
     form_title: "Titel",
-    alert_title: "Spitze!",
-    alert_text: "Deine Nachricht ist bei uns eingegangen",
+
     success_button: "OK",
+
     message_search_description: "Kontaktiere den Suchenden und teile mit, wie du helfen kannst.",
     message_search_header: "Kontakt",
+    message_search_alert_title: "Erfolgreich versendet",
+    message_search_alert_description: "Sobald jemand dich unterstützen kann, erhältst du eine Mail. Bis dahin kannst du anderen helfen indem du von #handinhand erzählst!",
+
     message_offer_header: "Kontakt",
     message_offer_description: "Kontaktiere deinen Unterstützer. Alles weitere vereinbart ihr per Mail.",
+    message_offer_alert_title: "Erfolgreich versendet",
+    message_offer_alert_description: "Sobald jemand deine Hilfe benötigt, erhältst du eine Mail. Bis dahin kannst du anderen helfen indem du von #handnhand erzählst!",
+
     success_search_header: "Erfolgreich versendet",
     success_search_description: "Sobald jemand dich unterstützen kann, erhältst du eine Mail. Bis dahin kannst du anderen helfen indem du von #handinhand erzählst!",
     success_offer_header: "Erfolgreich versendet",
-    success_offer_description: "Sobald jemand deine Hilfe benötigt, erhältst du eine Mail. Bis dahin kannst du anderen helfen indem du von #handinhand erzählst!"
+    success_offer_description: "Sobald jemand deine Hilfe benötigt, erhältst du eine Mail. Bis dahin kannst du anderen helfen indem du von #handinhand erzählst!",
+    share_header: "#HandNHand - Supporte uns",
+    share_text: "Sobald jemand deine Hilfe benötigt, erhältst du eine Mail. Bis dahin kannst du anderen helfen indem du von #handnhand erzählst!",
+
+
 };

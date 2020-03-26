@@ -9,13 +9,13 @@ import {e18n} from "../../../i18n";
 import sweetForm from "../form";
 import Button from "../button";
 
-const MessageComponent = ({uri,description, orange, header}) => {
+const MessageComponent = ({uri, alertTitle, alertDescription, description, orange, header}) => {
 
     const {register, setValue, handleSubmit, errors} = useForm();
 
     return (
         <form onSubmit={handleSubmit(({sender, message}) => sweetForm(() =>
-            sendMail(sender, message)).then(() => window.location = `/${uri}/success`))}>
+            sendMail(sender, message), alertTitle, alertDescription).then(() => window.location = `/share`))}>
             <FixedLayout orange={orange} className={"messagepage"} bottom={<Button type={"submit"}>Senden</Button>}>
                 <Header>{header}</Header>
                 <Text>{description}</Text>

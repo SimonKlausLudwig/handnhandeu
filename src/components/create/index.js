@@ -13,7 +13,7 @@ import {e18n} from "../../../i18n";
 import {sendMessage} from "../message";
 import Select from "../select";
 
-const CreateForm = ({title, orange, id, description, buttonText}) => {
+const CreateForm = ({title, orange,uri, id, description, buttonText}) => {
 
     const {register, setvalueee, handleSubmit, errors} = useForm();
     const [lokal, setLokal] = useState(true);
@@ -23,7 +23,7 @@ const CreateForm = ({title, orange, id, description, buttonText}) => {
                     return sendMessage(s.concat([formData]), id);
                 });
             }
-        ).then(() => window.location = "/success"))}>
+        ).then(() => window.location = `/${uri}/success`))}>
             <FixedLayout className={"messagepage"} orange={orange} bottom={<div>
                 <Button type={"submit"}>{buttonText}</Button>
                 <Text>Mit Absenden stimmen Sie zu, dass Sie Personen per E-Mail kontaktieren dürfen</Text>
