@@ -34,7 +34,7 @@ const ResultsWrapper = ({id, notFound, resultsFound, resultsDescription, createB
             {results.length <= 0 && <Header>{e18n.searching}</Header>}
             {results.length > 0 && <Text>{resultsDescription}</Text>}
             {results.length <= 0 && <Text>{e18n.please_wait}</Text>}
-            <Results results={results}/>
+            <Results uri={uri} results={results}/>
         </FixedLayout>)
 }
 

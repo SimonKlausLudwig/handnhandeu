@@ -29,6 +29,10 @@ body {
     grid-gap: 15px;
 }
 
+.messagepage .fixedBottom .mybutton{
+    margin-bottom: 10px;
+}
+
 .indexPage .pagehader img {
     display: none;
 }

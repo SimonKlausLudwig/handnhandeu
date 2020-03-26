@@ -3,7 +3,6 @@ import React from 'react'
 import Footer from "../footer";
 import {useForm} from "react-hook-form";
 import sweetForm from "../form";
-import {sendMessage} from "../../pages/message";
 import FixedLayout from "../layout/fixedlayout";
 import Header from "../header";
 import Text from "../text";
@@ -11,6 +10,7 @@ import Input from "../input";
 import TextArea from "../textarea";
 import Button from "../button";
 import {e18n} from "../../../i18n";
+import {sendMessage} from "../message";
 
 const CreateForm = ({title, orange, id, description, buttonText}) => {
 
@@ -23,7 +23,10 @@ const CreateForm = ({title, orange, id, description, buttonText}) => {
                 });
             }
         ).then(() => window.location = "/success"))}>
-            <FixedLayout className={"messagepage"} orange={orange} bottom={<Button type={"submit"}>{buttonText}</Button>}>
+            <FixedLayout className={"messagepage"} orange={orange} bottom={<div>
+                <Button type={"submit"}>{buttonText}</Button>
+                <Text>Mit Absenden stimmen Sie zu, dass Sie Personen per E-Mail kontaktieren dürfen</Text>
+            </div>}>
                 <Header>{title}</Header>
                 <Text>{description}</Text>
                 <Input ref={register} required={true} valueee="Title1" type={"text"} name="name" minLenght={15}

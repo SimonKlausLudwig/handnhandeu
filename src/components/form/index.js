@@ -14,6 +14,12 @@ export default function sweetForm(promise, onSuccess) {
             });
         }
     ).catch(e => {
-        Swal.fire('Ein Fehler ist aufgetreten', 'Es ist ein Unbekannter Fehler aufgetreten', 'error');
+        return new Promise(r => {
+            Swal.fire({
+                title: e18n.error_title, text: e18n.error_text, icon: 'error', onClose(popup) {
+                    return r(Promise.reject(new Error('fail')));
+                }
+            })
+        });
     });
 }
