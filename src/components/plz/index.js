@@ -4,6 +4,7 @@ import Header from "../../components/header";
 import Text from "../../components/text";
 import FixedLayout from "../../components/layout/fixedlayout";
 import Input from "../input";
+import {e18n} from "../../../i18n";
 
 const PlzWrapper = ({createButton, header, description, uri, orange}) => {
 
@@ -14,7 +15,7 @@ const PlzWrapper = ({createButton, header, description, uri, orange}) => {
             onClick={() => window.location.href = `/results/${uri}?plz=${plz}`}>{createButton}</Button>}>
             <Header>{header}</Header>
             <Text>{description}</Text>
-            <Input focus={true} autoFocus={true} onChange={(e) => setPLZ(e.target.value)} placeholder={"PLZ Eingeben"}/>
+            <Input focus={true} autoFocus={true} onChange={(e) => setPLZ(e.target.value)} placeholder={e18n.enter_plz}/>
         </FixedLayout>)
 }
 

@@ -1,10 +1,11 @@
 import React from "react"
 import ResultsWrapper from "../../components/resultswrapper";
+import {e18n} from "../../../i18n";
 
 export default () => {
-    return (<ResultsWrapper orange notFound={"Nicht gefunden nach was du suchst ?"}
-                            resultsFound={" Personen bieten dir ihre Hilfe an"}
-                            createButton={"Angebot erstellen"}
-                            resultsDescription={"Heute ist dein Glückstag. Viele Personen bieten Ihre Hilfe an"} uri={"search"}
+    return (<ResultsWrapper orange notFound={e18n.results_search_notfound}
+                            resultsFound={" " + e18n.results_search_results}
+                            createButton={e18n.results_search_button}
+                            resultsDescription={e18n.results_search_description} uri={"search"}
                             id={"17yrdw"}/>)
 }

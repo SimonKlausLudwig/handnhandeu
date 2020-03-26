@@ -4,6 +4,7 @@ import Header from "../../components/header";
 import Results from "../../components/results";
 import Text from "../../components/text";
 import FixedLayout from "../../components/layout/fixedlayout";
+import {e18n} from "../../../i18n";
 
 const ResultsWrapper = ({id, notFound, resultsFound, resultsDescription, createButton, uri, orange}) => {
 
@@ -30,9 +31,9 @@ const ResultsWrapper = ({id, notFound, resultsFound, resultsDescription, createB
             <Button onClick={() => window.location.href = `/create/${uri}`}>{createButton}</Button>
         </div>}>
             {results.length > 0 && <Header>{results.length} {resultsFound}</Header>}
-            {results.length <= 0 && <Header>Es wird gesucht</Header>}
+            {results.length <= 0 && <Header>{e18n.searching}</Header>}
             {results.length > 0 && <Text>{resultsDescription}</Text>}
-            {results.length <= 0 && <Text>Bitte habe einen kleinen Moment geduld</Text>}
+            {results.length <= 0 && <Text>{e18n.please_wait}</Text>}
             <Results results={results}/>
         </FixedLayout>)
 }

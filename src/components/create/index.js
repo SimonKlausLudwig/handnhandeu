@@ -10,6 +10,7 @@ import Text from "../text";
 import Input from "../input";
 import TextArea from "../textarea";
 import Button from "../button";
+import {e18n} from "../../../i18n";
 
 const CreateForm = ({title, orange, id, description, buttonText}) => {
 
@@ -26,13 +27,13 @@ const CreateForm = ({title, orange, id, description, buttonText}) => {
                 <Header>{title}</Header>
                 <Text>{description}</Text>
                 <Input ref={register} required={true} valueee="Title1" type={"text"} name="name" minLenght={15}
-                       placeholder={"Titel"}/>
+                       placeholder={e18n.form_title}/>
                 <TextArea ref={register} required={true} valueee="Beschreibung" name="description"
-                          placeholder={"Beschreibung"}/>
+                          placeholder={e18n.form_description}/>
                 <Input ref={register} required={true} valueee="simon-ludwig@live.de" name={"email"} minLenght={15}
-                       type={"email"} placeholder={"E-Mail-Adresse"}/>
+                       type={"email"} placeholder={e18n.form_email}/>
                 <Input ref={register} required={true} valueee="81273123" name={"tag"} type={"number"} minLength={5}
-                       placeholder={"PLZ"}/>
+                       placeholder={e18n.form_plz}/>
             </FixedLayout>
         </form>)
 }
