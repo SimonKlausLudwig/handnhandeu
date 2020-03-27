@@ -37,6 +37,11 @@ body {
     display: none;
 }
 
+.chevron{
+    width: 50px;
+    height: 50px;
+}
+
 .indexPage .fixedContent img {
     width: 100%;
     margin-bottom: 40px;
@@ -44,6 +49,10 @@ body {
 
 .onboardingpage .mytext {
     padding: 15px 20px;
+}
+
+.landingPage .fixedContent{
+    padding: 0px !important;
 }
 
 .onboardingpage .fixedContent {

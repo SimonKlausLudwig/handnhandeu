@@ -1,0 +1,51 @@
+.landingblock.color_orange{
+    background-color: var(--main-orange-color) !important;;
+}
+
+.landingblock.color_blue{
+    background-color: var(--main-color-blue) !important;;
+}
+
+.landingblock.color_blue .myheader,
+.landingblock.color_orange .bigheader,
+.landingblock.color_orange .mytext,
+.landingblock.color_orange .myheader{
+    color: white;
+}
+
+.landingblock .mytext{
+    padding: 0 30px 30px 30px;
+}
+
+.landingblock.color_white{
+    background-color: white !important;
+}
+
+.landingblock .landingchildrens{
+    display: flex;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .landingblock .landingchildrens {
+        flex-direction: column;
+    }
+}
+
+.landingimagewrapper{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.landingimagewrapper img{
+    max-width: 50px;
+    max-height: 50px;
+    filter: brightness(0) invert(1);
+}
+
+.bigheader{
+    font-size: 28px;
+    padding: 40px;
+}

@@ -2,10 +2,10 @@ export const e18n = {
     message: "message",
 
     onboard_owner: "Ladenbesitzer",
-    onboard_owner_description: "Du hast einen Betrieb und brauchst Unterstützung? Du brauchst einen Online-Shop oder eine Möglichkeit deine Speisen als Lieferdienst anzubieten?  Wir helfen dir!",
+    onboard_owner_description: "Du hast einen Betrieb und brauchst Unterstützung? Du brauchst einen Online-Shop oder eine Möglichkeit deine Speisen als Lieferdienst anzubieten? ",
     onboard_owner_button: "Ich brauche Hilfe",
     onboard_helper: "Unterstützer",
-    onboard_helper_description: "Du möchtest deinen Lieblingsorten unter die Arme greifen? Sieh' dir aktuelle Gesuche in deiner Umgebung an - hier entlang!",
+    onboard_helper_description: "Du möchtest deinen Lieblingsorten unter die Arme greifen? Sieh' dir aktuelle Gesuche in deiner Umgebung an",
     onboard_helper_button: "Ich möchte helfen",
 
 
@@ -28,7 +28,7 @@ export const e18n = {
     plz_offer_description: "Sieh' dir aktuelle Gesuche in deiner Umgebung an",
     plz_offer_button: "Gesuche finden",
     plz_offer_header: "Gesuche finden",
-    plz_search_description: "Sieh' dir aktuelle Angebote in deiner Umgebung an",
+    plz_search_description: "Sieh' dir aktuelle Angebote an. Egal ob deutschlandweit oder ganz in deiner Nähe.",
     plz_search_button: "Angebote finden",
     plz_search_header: "Angebote finden",
     create_offer_title: "Gesuch erstellen",
@@ -36,7 +36,6 @@ export const e18n = {
     create_offer_description: "Erstelle schnell und einfach dein eigenes Gesuch",
     create_search_title: "Angebot erstellen",
     create_search_button: "Angebot erstellen",
-
 
 
     create_search_description: "Erstelle schnell und einfach dein eigenes Angebot",
@@ -65,5 +64,25 @@ export const e18n = {
     success_offer_header: "Erfolgreich versendet",
     success_offer_description: "Sobald jemand deine Hilfe benötigt, erhältst du eine Mail. Bis dahin kannst du anderen helfen indem du von #handinhand erzählst!",
     share_header: "#HandNHand - Supporte uns",
-    share_text: "Sobald jemand deine Hilfe benötigt, erhältst du eine Mail. Bis dahin kannst du anderen helfen indem du von #handnhand erzählst!",
+    share_text: "Hilf und in dem du deinen Freunden und Verwanten von uns erzählst.",
+
+
+    faq: [
+        {
+            title: "Warum das Ganze?",
+            description: "Wir haben das Ziel kleine Betriebe, die wegen der aktuellen Lage in ernsthafte Schwierigkeiten geraten sind, mit hilfsbereiten Menschen zusammenzubringen. Manche benötigen einen Ausfahrer für Lieferungen, Hilfe bei der Erstellung eines Onlineshops oder Helfer für die aktuelle Ernte - der Kreativität sind keine Grenzen gesetzt. Damit kann jeder einen Beitrag leisten, dass wir auch in naher Zukunft noch unsere Liebliengsorte besuchen können."
+        },
+        {
+            title: "Wie funktioniert HandNHand?",
+            description: "Ganz einfach! Du wählst aus ob du Hilfe benötigst oder deine Hilfe anbietest. Je nachdem was du gewählt hast, werden dir aktuelle Angebote bzw. Gesuche vorgeschlagen. Diese kannst du nun mit deiner persönlichen Nachricht kontaktieren. Falls kein passendes Angebot/Gesuch dabei gewesen sein sollte, dann kannst du einfach schnell eines erstellen. Die Nachrichten auf dein Angebot/Gesuch erhältst du dann per Mail und ihr macht die genauen Konditionen unter euch aus."
+        },
+        {
+            title: "Wie sehe ich ob ich eine Nachricht erhalten habe?",
+            description: "Sobald jemand auf dein Angebot oder Gesuch geantwortet hat, bekommst du eine Mail mit allen Informationen. Wie du danach vorgehen möchtest, liegt ganz bei dir."
+        },
+        {
+            title: "Kann ich sonst noch etwas tun?",
+            description: "Erzähl' es weiter! Je mehr sich dieses Angebot rumspricht, desto schneller werden Menschen miteinander verbunden, die sich gegenseitig unterstützen können.  Nutze #handinhand und berichte von deinen Erfahrungen!"
+        }
+    ]
 };

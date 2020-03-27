@@ -34,7 +34,7 @@ export function sendMail(sender, content) {
     return fetch(`https://hook.integromat.com/dqawpkdpq1a4pq67r426e8akya0967uj`, {
         method: 'POST',
         body: JSON.stringify({
-                content: `<div>${sender} ${e18n.message_mailcontent} ${content}</div>`,
+                content: `${sender} ${e18n.message_mailcontent}: ${content}`,
                 receiver: new URL(window.location.href).searchParams.get("email")
             },
         ), headers: {

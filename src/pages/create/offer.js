@@ -3,9 +3,7 @@ import CreateForm from "../../components/create";
 import {e18n} from "../../../i18n";
 
 export default () => {
-    return (<CreateForm id={"17yrdw"} uri={"offer"} title={e18n.create_offer_title}
-                        buttonText={e18n.create_offer_button}
-                        alertTitle={e18n.create_offer_alert_title}
-                        alertDescription={e18n.create_offer_alert_description}
-                        description={e18n.create_offer_description}/>)
+    return (<CreateForm  uri="search" id="1c8nic" title={e18n.create_search_title}
+                        buttonText={e18n.create_search_button}
+                        description={e18n.create_search_description}/>)
 }

@@ -6,5 +6,5 @@ export default () => {
     return (<ResultsWrapper resultsFound={" " + e18n.results_offer_results}
                             createButton={e18n.results_offer_button}
                             resultsDescription={e18n.results_offer_description}
-                            uri={"offer"} id={"1c8nic"}/>)
+                            uri={"offer"} id={"17yrdw"}/>)
 }

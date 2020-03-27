@@ -1,10 +1,12 @@
 :root.orange {
     --main-color: #FE8C34;
+    --main-color-blue: #07257A;
     --main-orange-color: #FE8C34;
 }
 
 :root.blue{
     --main-color: #07257A;
+    --main-color-blue: #07257A;
     --main-orange-color: #FE8C34;
 }
 
