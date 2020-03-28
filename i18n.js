@@ -84,5 +84,6 @@ export const e18n = {
             title: "Kann ich sonst noch etwas tun?",
             description: "Erzähl' es weiter! Je mehr sich dieses Angebot rumspricht, desto schneller werden Menschen miteinander verbunden, die sich gegenseitig unterstützen können.  Nutze #handinhand und berichte von deinen Erfahrungen!"
         }
-    ]
+    ],
+    results_offer_notfound: "Nicht gefunden? Erstelle ein Angebot!"
 };
