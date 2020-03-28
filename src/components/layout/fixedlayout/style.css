@@ -43,7 +43,7 @@ body {
 }
 
 .indexPage .fixedContent img {
-    width: 100%;
+    width: 65%;
     margin-bottom: 40px;
 }
 
@@ -53,6 +53,7 @@ body {
 
 .landingPage .fixedContent{
     padding: 0px !important;
+    text-align: center;
 }
 
 .onboardingpage .fixedContent {
