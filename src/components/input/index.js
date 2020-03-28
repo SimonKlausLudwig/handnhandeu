@@ -3,7 +3,7 @@ import "./style.css";
 
 const Input = React.forwardRef((props, ref) => (
     <div className={"myinput"}>
-        <input {...props} ref={ref} type="text"/>
+        <input {...props} ref={ref}/>
     </div>
 ))
 
